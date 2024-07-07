@@ -1,0 +1,16 @@
+id                          AUTO_INCREMENT         NOT_NULL          UNIQUE
+marca                       VARCHAR(50)            NOT_NULL
+modello                     VARCHAR(50)            NOT_NULL
+alimentazione               VARCHAR(50)            NOT_NULL
+cilindrata                  SMALLINT               NOT_NULL
+numero_telaio               VARCHAR(20)            NOT_NULL          UNIQUE
+KW                          SMALLINT               NOT_NULL
+numero_targa                VARCHAR(10)            NOT_NULL          UNIQUE
+trazione                    VARCHAR(50)            NOT_NULL
+prima_immatricolazione      DATE                   NOT_NULL
+classe_inquinamento         VARCHAR(10)            NOT_NULL
+cambio                      VARCHAR(50)            NOT_NULL
+veicolo_commerciale         BOOLEAN                NOT_NULL
+KM_percorsi                 FLOAT (9,3)            NOT_NULL
+precedenti_proprietari      TINYINT                NOT_NULL
+storico_veicolo             TEXT                   NOT_NULL
